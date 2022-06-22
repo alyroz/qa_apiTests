@@ -7,11 +7,13 @@ import lombok.*;
 @Setter
 @ToString
 @Builder
-public class HeroRequestDto {
+public class SuperHeroResponseDto {
     String birthDate;
     String city;
     String fullName;
     String gender;
+    int id;
     String mainSkill;
     String phone;
+
 }

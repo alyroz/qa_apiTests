@@ -8,7 +8,7 @@ import lombok.*;
 @ToString
 @Builder
 
-public class HeroErrorDto {
-    int status;
-    String error;
+public class SuperHeroErrorDto {
+    String message;
+    String code;
 }

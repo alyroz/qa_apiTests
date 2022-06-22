@@ -1,7 +1,7 @@
-package pages;
+package requestHelper;
 
 import utils.PropertiesUtils;
 
-public class MainPage {
+public class BaseRequest {
     protected final String URL_START = PropertiesUtils.getProperty("url");
 }
